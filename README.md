@@ -12,7 +12,7 @@ tags:
   - wip
 ---
 
-# Git Commits
+# String functions
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
@@ -34,7 +34,7 @@ At every step, try to predict the response of git status before checking it.
 
 Make sure to commit your code regularly and push to remote. Continue switching between the two machines (and so you will need to keep GitHub up to date) through the exercises.
 
-We will be practicing TDD throughout these exercises - write your tests first and then write the code required to pass them. We will be completing challenges working with strings to practice this. 
+We will be practicing TDD throughout these exercises - write your tests first and then write the code required to pass them. We will be completing challenges working with strings to practice this. After, please continue using similar methods to approach other katas.
 
 ## Exercise 0: Set up and initialise your local repository (Machine A)
 
