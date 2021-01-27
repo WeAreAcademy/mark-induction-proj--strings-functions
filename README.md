@@ -56,9 +56,19 @@ We will be practicing TDD throughout these exercises - write your tests first an
 - Commit your first test
 - Write three more tests for `capitalise_string` giving it other words
 - Run your tests using `pytest` - you will see that they fail
+- The next time you run `git status` after having ran your tests you will see the sub-directory `__pycache__`. In simplified terms, this contains the byte code produced by the interpreter when running the python script. We do not need to include this in our git repo and so we want to ignore it. We can choose certain files or folders to ignore by specifying them in a file called `.gitignore`.
+- Create a `.gitignore` file at the top level (outside of `src`). Inside this file put:
+
+```
+__pycache__
+.pytest_cache 
+```
+- This means that folders matching each of those names (and their contents) will be ignored - they won't be included in the git repo and so won't be shared via GitHub. The `.pytest_cache ` is a hidden folder containing a cache from the tests.
+- Run `git status` again and see that `__pycache__` is no longer included
 - Commit your work and continue to commit regularly as we go along
 - Create a new repository on GitHub
 - Push your work to the remote repository
+- Notice how the `__pycache__` and `.pytest_cache` folders are not included in the remote repository (because they are listed in `.gitignore`)
 - Send the url of the repository to your partner
 
 ## Exercise 2: Clone the repo onto a different machine and make `capitalise_string` pass the tests (Machine B)
