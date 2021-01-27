@@ -24,7 +24,7 @@ tags:
 - Work with a partner across both of your machines
 
 ## Prerequisites:
-- Install `pytest`
+- Install `pytest` (follow the steps in Exercise 0 of [mark-induction-proj--writing-tests](https://github.com/WeAreAcademy/mark-induction-proj--writing-tests))
 
 ## Key themes
 
