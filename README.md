@@ -90,7 +90,7 @@ __pycache__
 - Switch back to Machine A.
 - Pull the latest changes in.
 - Run the tests again to prove that they are passing.
-- Expand the test suite - add tests to check `captiliseString` works with a multi-word phrase.
+- Expand the test suite - add tests to check `capitalise_string` works with a multi-word phrase.
 - What happens if the input includes numbers or punctuation in the string? Add tests for this.
 - Run your tests: if they fail then improve your function to resolve this.
 - Commit and push to remote - keep doing this regularly.
