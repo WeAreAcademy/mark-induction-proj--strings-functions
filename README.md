@@ -120,6 +120,13 @@ Make a function to turn strings into title case. Find a list of minor words onli
 
 Make a new function which reverses strings. Continue using TDD and so write the tests for it first!
 
+## Exercise 7: Add a README
+
+> 🎯 **Success criterion:** A README which describes your project.
+
+Write a README, which every project should have. READMEs should be put at the top level of your repo (so not in the src folder) and should be a markdown file. GitHub shows the preview of the README in effect as the cover page of the repo. It should explain the project and give credit to sources or inspiration (and so include a link to this repo). There are lots of articles online about how to write a good README but this is a skill we can develop over time.
+
+
 ## Extension:
 
 Continue practicing TDD to solve challenges and collaborating via GitHub. We recommend looking at katas available on CodeWar for these challenges. 
