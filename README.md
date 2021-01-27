@@ -44,24 +44,24 @@ We will be practicing TDD throughout these exercises - write your tests first an
 - Initialise a new git repository within it
 - Create a sub-directory `src` (short for "source")
 
-## Exercise 1: Write the first tests for `capitaliseString` and push to GitHub (Machine A)
+## Exercise 1: Write the first tests for `capitalise_string` and push to GitHub (Machine A)
 
 > 🎯 **Success criterion:** You have written your first tests and pushed them to a remote repository.
 
 - Create a python file within it `main.py`
 - Make an initial commit
-- In `main.py`, define a function `capitaliseString` which takes a single string parameter. To begin with, make it return that same string
+- In `main.py`, define a function `capitalise_string` which takes a single string parameter. To begin with, make it return that same string
 - Create a python file `main_test.py` which we will use to test the program
-- Write a test for the function `capitaliseString`: check that it returns a given word in capitals
+- Write a test for the function `capitalise_string`: check that it returns a given word in capitals
 - Commit your first test
-- Write three more tests for `capitaliseString` giving it other words
+- Write three more tests for `capitalise_string` giving it other words
 - Run your tests using `pytest` - you will see that they fail
 - Commit your work and continue to commit regularly as we go along
 - Create a new repository on GitHub
 - Push your work to the remote repository
 - Send the url of the repository to your partner
 
-## Exercise 2: Clone the repo onto a different machine and make `capitliseString` pass the tests (Machine B)
+## Exercise 2: Clone the repo onto a different machine and make `capitalise_string` pass the tests (Machine B)
 
 > 🎯 **Success criterion:** You have cloned the repository onto a second machine, written the function body to pass the tests and pushed back to remote.
 
@@ -69,7 +69,7 @@ We will be practicing TDD throughout these exercises - write your tests first an
 - Investigate the files - notice how the setup of the repository is preserved , i.e. both `main.py` and `main_test.py` are within the `src` sub-directory just like on the original machine.
 - Investigate the git log - see that all of the commits on your partner's machine are also present and viewable here.
 - Run the tests with `pytest` - they will fail again
-- Write the function body of `capitaliseString` so that it passes the initial tests.
+- Write the function body of `capitalise_string` so that it passes the initial tests.
 - Check that it passes the tests.
 - Push to remote - you should do this regularly so that it is always available online (for your own benefit if your laptop were to have a problem and for your team's benefit so they can see the most recent version).
 
@@ -91,7 +91,7 @@ From here onwards, keep committing and pushing. Swap between machines regularly 
 
 > 🎯 **Success criterion:** A function and relevant tests for it to change a string into lowercase.
 
-Now let's make a new function `decapitaliseString` which does the opposite of `capitaliseString`: it should turn any capital letters into lower case.
+Now let's make a new function `decapitalise_string` which does the opposite of `capitalise_string`: it should turn any capital letters into lower case.
 
 - Similarly to before, start by defining the function and making it return something abritrary such as its input. It should take a string as its only parameter.
 - Write a thorough test suite for this function - think about cases such as number, punctuation, words with spaces, and anything else which may come up.
