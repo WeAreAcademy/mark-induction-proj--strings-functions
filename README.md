@@ -88,7 +88,7 @@ __pycache__
 > 🎯 **Success criterion:** An expanded test suite.
 
 - Switch back to Machine A.
-- Pull the latest changes in.
+- Pull the latest changes in using `git pull`. This updates your local repository to include all the commits from the remote repository, and you can check this by running `git log` and seeing all of the commits made by your partner.
 - Run the tests again to prove that they are passing.
 - Expand the test suite - add tests to check `capitalise_string` works with a multi-word phrase.
 - What happens if the input includes numbers or punctuation in the string? Add tests for this.
